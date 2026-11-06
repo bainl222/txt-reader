@@ -1,17 +1,9 @@
-# txt_reader
+# txt_reader 闲来无事制作的个人使用的txt阅读器，功能很杂乱
 
-A new Flutter project.
+一个基于 Flutter 开发的多功能本地 TXT 阅读器
 
-## Getting Started
+📦 版本更新
+本应用通过 GitHub 的 Releases 页面发布新版本。请直接下载最新版本的 .apk 文件安装体验。
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📄 声明
+本项目仅供个人学习与交流使用，请勿用于商业用途。
