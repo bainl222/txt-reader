@@ -1,0 +1,47 @@
+name: txt_reader
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # 基础路径
+  path: ^1.9.0
+  
+  # 文件选择与权限
+  path_provider: ^2.1.2
+  permission_handler: ^11.3.1
+  file_picker: ^10.3.8
+  
+  # 本地存储
+  shared_preferences: ^2.5.6
+  
+  # 工具扩展
+  archive: ^3.4.9
+  package_info_plus: ^8.0.0
+  
+  # 核心：解决 TXT 乱码
+  fast_gbk: ^1.0.0 
+  # 核心：解决目录/书签精准跳转、进度恢复
+  scrollable_positioned_list: ^0.3.8 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1 
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: false
+  image_path: "assets/icon.png"
+  min_sdk_android: 21
